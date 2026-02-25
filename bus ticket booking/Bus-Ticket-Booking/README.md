@@ -1,46 +1,58 @@
-# BUS TICKET BOOKING
+🚌 Bus Ticket Booking System
+🚀 Overview
+Bus Ticket Booking is a web application built using Flask and SQLite, designed to simplify the bus ticket reservation process.
 
-## Overview
-Bus Ticket Booking is a web application built using Flask and SQLite, designed to streamline the bus ticket reservation process. This project utilizes Object-Oriented Programming principles to ensure a structured and maintainable codebase.
+The project follows Object-Oriented Programming principles to maintain clean, scalable, and maintainable code architecture.
 
-## Features
-- **Admin Capabilities**:
-  - Add and remove bus routes.
-  - Set and update costs for each route.
-  - Manage seat allocations and availability.
+✨ Features
+👨‍💼 Admin Features
+✅ Add and remove bus routes
+✅ Set and update ticket prices
+✅ Manage seat availability and allocations
 
-- **User Features**:
-  - Browse available bus routes and their details.
-  - Book and cancel seat reservations, with real-time updates for all users.
-  - Secure login and signup functionality with password hashing using `werkzeug.security` for enhanced security.
+👤 User Features
+✅ Browse available bus routes
+✅ Book and cancel tickets
+✅ Real-time seat availability updates
+✅ Secure authentication using password hashing
 
-## Installation
+🛠 Technologies Used
+Python
+Flask Framework
+SQLite Database
+HTML
+CSS
+JavaScript
+Werkzeug Security Library (Password Hashing)
+📦 Installation & Setup
+Clone Repository
+git clone https://github.com/Hexecutionerr/bus-ticket.git
 
-To install and run the project, follow these steps:
+Navigate to Project Directory
+cd bus-ticket
+Install Dependencies
+pip install flask
+pip install flask_sqlalchemy
+Run Application
+python app.py
 
-1. Clone the repository:
-   in bash
-   git clone <repository-url>
-   
-2. Navigate into the project directory:
-   cd <project-directory>
-   
-3. Run the application:
-   python app.py
+Open Browser:
 
-## Technologies Used
-Programming Languages: Python, HTML, CSS, JavaScript
-Framework: Flask
-Database: SQLite
-Key Libraries:
-werkzeug.security for password hashing.
-Database:
-The project includes an SQLite database that supports all CRUD operations, allowing efficient management of user data, bus routes, and bookings.
+http://127.0.0.1:5000
+🧠 Project Architecture
+bus-ticket-booking-system/
+├── templates/
+├── static/
+├── app.py
+├── database.db
 
-## Authors
-This project was developed by:
+👥 Team Members
 
-Mayuresh Sawant<br>
-Hasnain Khan<br>
-Ghanshyam Kumavat<br>
-As college students, we collaborated to create this project as part of our coursework. We hope this application makes the bus booking process more efficient and user-friendly.
+Hasnain Khan
+Mayuresh Sawant
+
+🔮 Future Improvements
+Payment Gateway Integration
+Mobile Application Version
+Real-time Notifications
+Admin Analytics Dashboard
